@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Degree</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div>
+        <label>Student Name:</label>
+        <input type="text" id="name" />
+        <input type="button" value="addName" onclick="AddName()" />
+
+    </div>
+    <h1 id="namehere"></h1>
+    <input type="text" id="degreee" />
+    <input type="button" value="AddDegree" onclick="addDegree()"/>
+    <div id="studentmark">
+    </div>
+    <br />
+
+    <input type="button" value="Total" onclick="calcDegree()" />
+    <p id="total"></p> <p id="answer"></p>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
